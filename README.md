@@ -1,4 +1,4 @@
-# copydata
+# Copy Data
 Copy Data creates a context menu option on Windows Explorer that copies the content (text, image, etc) of a file to the clipboard without opening the file.
 
 It does not copy the file or the file name/path, it copy it's actual contents.
