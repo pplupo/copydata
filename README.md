@@ -13,9 +13,14 @@ Text: .bat, .cmd, .css, .html, .js, .reg, .txt, .vbs, .rtf (Will not work for .r
 
 Aside from files ending in these extensions, the option won't show in the context menu (Windows Explorer shell). After installed, it looks like this:
 
-<Insert Image>
+![Context menu example](Resources/context_menu.png)
 
 The only thing created in Windows Start menu is an uninstaller link, so skip that if you don't want clutter. You can always uninstall through "Add or Remove Programs".
 
 This is tested on Windows 10 only, but might work with Windows 8.1, 8 and possibly earlier versions.
 The current version supports Windows 64-bit distributions only.
+
+If you want support for other extensions, please create a new issue (look if it doesn't already exists first).
+If you want to contribute to the project, just make a pull request.
+
+Author's website: http://www.pplupo.com
