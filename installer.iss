@@ -4,7 +4,7 @@
 #define MyAppName "Copy data"
 #define MyAppVersion "1.0"
 #define MyAppPublisher "Peter P. Lupo"
-#define MyAppURL "http://www.pplupo.com/"
+#define MyAppURL "https://github.com/pplupo/copydata"
 #define SourceDir "src\"
 
 [Setup]
@@ -28,8 +28,10 @@ Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
 PrivilegesRequired=admin
+OutputDir=dist
 ArchitecturesAllowed=x64
 ArchitecturesInstallIn64BitMode=x64
+LicenseFile=LICENSE
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
