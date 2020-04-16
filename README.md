@@ -40,9 +40,14 @@ Author's website: http://www.pplupo.com
 
 ### Development information
 In the Resources directory you will find innosetup-6.0.4.exe. This is the tool used to generate the installer.
+
 The [Inno Setup](https://jrsoftware.org/isinfo.php) generates the installer from the script installer.iss.
+
 This script includes all 3 NirCmd files (even though only one is used, NirSoft only allows distribution of all 3 together) and create the windows registry entries.
+
 An uninstaller is automatically generated, removing all files and all registry entries.
 Under src directory, NirCmd can be found. With it, the Windows registry files to add and to remove the keys that were created will also be found. This can be used to "install" or "uninstall" the utility manually (please mind that the installation directory in these files is hardcoded).
+
 These are the same keys that are coded in Inno Setup's script.
+
 Because they are several keys and editing in Inno Setup's editor isn't a great experience, the section of the script that contains the keys is copied in a txt file. I've used Notepad++ regex capabilities to make the changes I needed to make in the keys and copied to the script.
