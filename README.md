@@ -1,4 +1,6 @@
 # Copy Data
+[DOWNLOAD](https://github.com/pplupo/copydata/raw/master/dist/Copy%20data%201.0.exe)
+
 Copy Data creates a context menu option on Windows Explorer that copies the content (text, image, etc) of a file to the clipboard without opening the file.
 
 It does not copy the file or the file name/path, it copy it's actual contents.
@@ -24,3 +26,5 @@ If you want support for other extensions, please create a new issue (look if it 
 If you want to contribute to the project, just make a pull request.
 
 Author's website: http://www.pplupo.com
+
+[DOWNLOAD](https://github.com/pplupo/copydata/raw/master/dist/Copy%20data%201.0.exe)
