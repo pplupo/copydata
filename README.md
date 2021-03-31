@@ -1,5 +1,7 @@
 # Copy Data
 
+# This project was moved to GitLab: https://gitlab.com/pplupo/copy-data
+
 ## Download link
 
 [DOWNLOAD](https://github.com/pplupo/copydata/raw/master/dist/Copy%20data%201.0.exe)
